@@ -1,0 +1,33 @@
+* {
+  --antd-wave-shadow-color: #fff;
+}
+
+.ant-modal {
+  top: 0;
+  margin: 0;
+}
+.ant-modal-content {
+  height: 100vh;
+  width: 200px;
+}
+
+.ant-btn-primary {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  color: #fff;
+  border-color: #fff;
+  background: #fff;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-modal-close-x {
+  display: none;
+}

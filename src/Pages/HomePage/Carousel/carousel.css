@@ -1,0 +1,7 @@
+.ant-carousel .slick-dots li button {
+  height: 16px;
+  border-radius: 100%;
+}
+.ant-carousel .slick-dots li.slick-active {
+  width: 18px;
+}

@@ -1,0 +1,2 @@
+export const SET_USER_INFOR = "SET_USER_INFOR";
+export const REMOVE_USER_INFOR = "REMOVE_USER_INFOR";
