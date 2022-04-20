@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Modal, Button } from "antd";
 import { TiThMenuOutline } from "react-icons/ti";
+import { HashLink } from "react-router-hash-link";
+
 import "./navModal.css";
 import NavHeaderUserTablet from "./NavHeaderUserTablet";
 export default function NavModal() {
@@ -29,18 +31,17 @@ export default function NavModal() {
         onCancel={handleCancel}
       >
         <div className="space-y-5 font-bold flex  flex-col items-start justify-start">
-          <span className="hover:text-red-500 cursor-pointer transition-all ">
-            Lịch Chiếu
-          </span>
-          <span className="hover:text-red-500 cursor-pointer transition-all ">
-            Cụm Rạp
-          </span>
-          <span className="hover:text-red-500 cursor-pointer transition-all ">
-            Tin Tức
-          </span>
-          <span className="hover:text-red-500 cursor-pointer transition-all ">
-            Ứng Dụng
-          </span>
+          <HashLink smooth to="/#lichchieu">
+            <span className="hover:text-red-500 cursor-pointer transition-all ">
+              Lịch Chiếu
+            </span>
+          </HashLink>
+
+          <HashLink smooth to="/#phoneapp">
+            <span className="hover:text-red-500 cursor-pointer transition-all ">
+              Ứng Dụng
+            </span>
+          </HashLink>
         </div>
       </Modal>
     </>
