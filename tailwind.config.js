@@ -1,8 +1,8 @@
 module.exports = {
   important: true,
   // mode: "jit",
-
-  purge: ["./src/**/*.js", "./src/**/**/*.js"],
+  enabled: process.env.NODE_ENV === "production",
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: "class", // or 'media' or 'className'
   theme: {
     extend: {

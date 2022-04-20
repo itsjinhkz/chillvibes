@@ -6,7 +6,10 @@ export default function PhoneApp() {
     <div
       className="pt-32 pb-20 "
       style={{
-        backgroundImage: `url("http://demo1.cybersoft.edu.vn/static/media/backapp.b46ef3a1.jpg")`,
+        backgroundImage:
+          "url(" +
+          "https://i.pinimg.com/originals/4e/27/78/4e27787d4fec4b0773c56a6f6a95f987.jpg" +
+          ")",
       }}
       id="phoneapp"
     >
@@ -40,7 +43,7 @@ export default function PhoneApp() {
           <div>
             <div className="rounded-xl absolute top-0 ">
               <img
-                src="http://demo1.cybersoft.edu.vn/static/media/banner-slider-3.33a486d1.jpg"
+                src="https://i.pinimg.com/originals/88/5b/18/885b18fd58071e0ca55863865ca3440f.jpg"
                 alt="phineInfor"
               />
             </div>
