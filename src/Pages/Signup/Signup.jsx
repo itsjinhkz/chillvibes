@@ -64,7 +64,7 @@ export default function Signup() {
         height: "100vh",
       }}
     >
-      <div className="container mx-auto py-20 w-46 shadow-xl">
+      <div className="container mx-auto py-20 md:w-46 shadow-xl">
         <div className="bg-white px-14 py-5 rounded-xl">
           <div className="flex items-center justify-center flex-col">
             <FcLock size={40} />

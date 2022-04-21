@@ -5,3 +5,6 @@
 .ant-carousel .slick-dots li.slick-active {
   width: 18px;
 }
+.ant-carousel .slick-dots {
+  z-index: 0;
+}

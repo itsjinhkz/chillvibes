@@ -71,8 +71,8 @@ export default function Login() {
         height: "100vh",
       }}
     >
-      <div className="container mx-auto py-20 w-46 shadow-xl">
-        <div className="bg-white px-14 py-5 rounded-xl">
+      <div className="container mx-auto py-20  shadow-xl">
+        <div className="bg-white px-5 xl:px-14 py-5 rounded-xl">
           <div className="flex items-center justify-center flex-col">
             <FaUser size={40} color="orange" />
             <p className="font-medium text-xl">Đăng Nhập</p>

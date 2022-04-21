@@ -24,7 +24,7 @@ export default function Carousela() {
 
   return (
     <div className="my-20">
-      <Carousel afterChange={onChange} draggable autoplaySpeed={3000}>
+      <Carousel afterChange={onChange} draggable autoplay autoplaySpeed={3000}>
         {data.map((item, index) => {
           return (
             <div className="hidden md:block md:w-screen md:h-96 lg:h-700 xl:h-800 relative ">
