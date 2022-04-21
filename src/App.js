@@ -4,6 +4,7 @@ import "./App.css";
 import DetailMovie from "./Pages/DetailMovie/DetailMovie";
 import HomePage from "./Pages/HomePage/HomePage";
 import Login from "./Pages/Login/Login";
+import NotFound from "./Pages/NotFound/NotFound";
 import Signup from "./Pages/Signup/Signup";
 import Layout from "./Temple/Layout";
 
@@ -35,6 +36,12 @@ function App() {
             path="/detail/:id"
             render={() => {
               return <Layout Component={DetailMovie} />;
+            }}
+          />
+          <Route
+            path="*"
+            render={() => {
+              return <Layout Component={NotFound} />;
             }}
           />
         </Switch>
